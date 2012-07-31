@@ -72,8 +72,8 @@ public abstract class PagedView extends ViewGroup implements ViewGroup.OnHierarc
 
     // The following constants need to be scaled based on density. The scaled versions will be
     // assigned to the corresponding member variables below.
-    private static final int FLING_THRESHOLD_VELOCITY = 500;
-    private static final int MIN_SNAP_VELOCITY = 1500;
+    private static final int FLING_THRESHOLD_VELOCITY = 250;
+    private static final int MIN_SNAP_VELOCITY = 750;
     private static final int MIN_FLING_VELOCITY = 250;
 
     static final int AUTOMATIC_PAGE_SPACING = -1;
